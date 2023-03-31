@@ -1,0 +1,42 @@
+
+-----------------------operator API's----------------------------
+
+# this API used  for createing new  customer 
+=>http://localhost:7000/adduser
+
+#  this API used to see the only one customer with id
+note:- (id:you have to put for ex:101 or autogenrated mongodb id)
+=> http://localhost:7000/oneuser/:id
+
+#  this API used to see all the customer 
+=> http://localhost:7000/allusers
+
+
+# this API used for editing the customer details with id
+=> http://localhost:7000/edituser/:id
+
+
+#  this API used for deleteing the customer with id 
+=> http://localhost:7000/deleteuser/:id
+
+
+
+
+-----------------------Booking API's----------------------------
+
+# this API used  for createing new  booking 
+=>http://localhost:7000/addbooking
+
+#  this API used to see the only one booking with id
+=> http://localhost:7000/onebooking/:id
+
+#  this API used to see all the booking 
+=> http://localhost:7000/allbooking
+
+
+# this API used for editing the booking details with id
+=> http://localhost:7000/editbooking/:id
+
+
+#  this API used for deleteing the booking with id 
+=> http://localhost:7000/deletebooking/:id
